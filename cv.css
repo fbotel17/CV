@@ -1,6 +1,6 @@
-#info{
+#leftBlock{
+    float: left;
     background-color: rgb(255, 255, 255);
-    height: 50%;
     width: 30%;
 }
 
@@ -28,4 +28,28 @@
     padding-left: 15px;
     border: 1px solid black;
     margin: auto;
+}
+
+#espace1{
+    height: 50px;
+}
+
+#bandeau{
+    background-color: gray;
+    color : white;
+    height: 40px;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+#triangle{
+    width  : 0;
+    height : 0;
+    border-top  : 20px solid rgb(150, 153, 150);
+    border-left : 30px solid transparent;
+}
+
+#rightBlock{
+    float: right;
+    width: 70%;
 }
